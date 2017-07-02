@@ -29,14 +29,14 @@ GetSession() = ARKitSession:
     GetAnchors(ARKitAnchor[])
 
 ARKitFrame:
-  ARKit Struct Camera
-      Tracking Quality
-      Transform
-      Resolution
-      Focal Length
-      Principal Point
-  ARKit Light Estimate
-      float Intensity
+    ARKit Struct Camera
+        Tracking Quality
+        Transform
+        Resolution
+        Focal Length
+        Principal Point
+    ARKit Light Estimate
+        float Intensity
 
 ARKitAnchor:
     Transform
