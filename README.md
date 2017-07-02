@@ -1,5 +1,4 @@
-# UE4ARKit
-Structures and dependencies of Apple ARKit wrapper in UE4 (temporal solution before the official docs)
+# Structures and dependencies of Apple ARKit wrapper in UE4 (temporal solution before the official docs)
 
 * Current early dev branch: https://github.com/EpicGames/UnrealEngine/tree/dev-ar-kit (Apple ARKit support will be released with 4.17 in ~August 2017).
 
