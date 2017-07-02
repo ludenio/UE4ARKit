@@ -3,7 +3,7 @@
 * Current early dev branch: https://github.com/EpicGames/UnrealEngine/tree/dev-ar-kit (Apple ARKit support will be released with 4.17 in ~August 2017).
 
 Known issues:
-* https://answers.unrealengine.com/oauth/authorized?code=0e85ad4e6a47431397499b69690a1918
+* https://answers.unrealengine.com/questions/667449/arsample-editor-crashing-after-load.html
 * https://answers.unrealengine.com/questions/660723/arkit-arsample-failed-to-compile-global-shader.html
 
 Forum thread:
