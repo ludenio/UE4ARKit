@@ -13,20 +13,20 @@ Forum thread:
 ## ARKit plugin's summary:
 ```
 ARKitCameraComponent = ARKitCamera:
-	ARKitHitTestResult[] HitTestAtScreenPoint(HitTestResultType)
-	SetOrientationAndPosition()
+    ARKitHitTestResult[] HitTestAtScreenPoint(HitTestResultType)
+    SetOrientationAndPosition()
 
 GetSession() = ARKitSession:
-	ARKitHitTestResult[] HitTestAtScreenPoint(HitTestResultType)
-	ARKitFrame GetCurrentFrame()
-	Run()
-	Stop()
-	bool IsRunning
-	EnablePlaneDetection(bool)
-	SetBaseTransform(Transform)
-	Transform GetBaseTransform()
-	RunWithConfiguration(ARKitSessionConfiguration)
-	GetAnchors(ARKitAnchor[])
+    ARKitHitTestResult[] HitTestAtScreenPoint(HitTestResultType)
+    ARKitFrame GetCurrentFrame()
+    Run()
+    Stop()
+    bool IsRunning
+    EnablePlaneDetection(bool)
+    SetBaseTransform(Transform)
+    Transform GetBaseTransform()
+    RunWithConfiguration(ARKitSessionConfiguration)
+    GetAnchors(ARKitAnchor[])
 
 ARKitFrame:
   ARKit Struct Camera
@@ -42,16 +42,16 @@ ARKitAnchor:
     Transform
         
 ARKitHitTestResult:
-	ARKitHitTestResultType
-	Distance
-	Transform
-	Anchor
+    ARKitHitTestResultType
+    Distance
+    Transform
+    Anchor
 
 ARKitHitTestResultType:
-	Feature Point
-	Estimated Horizontal Plane
-	Existing Plane
-	Existing Plane Using Extent
+    Feature Point
+    Estimated Horizontal Plane
+    Existing Plane
+    Existing Plane Using Extent
 ```
   
 ## How to set ARKit camera position
