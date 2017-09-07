@@ -1,4 +1,7 @@
-# XCode 9 Beta 6 compatible
+# ARKit Plugin for UE4 with some fixes
+
+* XCode 9 Beta 6 compatible
+* Fixed hardcoded version of hit test
 
 # Structures and dependencies of Apple ARKit wrapper in UE4 (temporal solution before the official docs)
 
