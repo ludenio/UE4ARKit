@@ -45,7 +45,7 @@ ARConfiguration* ToARSessionConfiguration( const UAppleARKitSessionConfiguration
 		SessionConfiguration.lightEstimationEnabled = WorldTrackingSessionConfiguration->bLightEstimationEnabled;
 		SessionConfiguration.worldAlignment = ToARWorldAlignment( WorldTrackingSessionConfiguration->Alignment );
 		// SessionConfiguration.planeDetection = ToARPlaneDetection( static_cast< EAppleARKitPlaneDetection >( WorldTrackingSessionConfiguration->PlaneDetection ) );
-        SessionConfiguration.planeDetection = ARPlaneDetectionHorizontal;
+      		SessionConfiguration.planeDetection = ARPlaneDetectionHorizontal;
       
 		return SessionConfiguration;
 	}
@@ -58,7 +58,7 @@ ARConfiguration* ToARSessionConfiguration( const UAppleARKitSessionConfiguration
 		// Copy / convert properties
 		SessionConfiguration.lightEstimationEnabled = InSessionConfiguration->bLightEstimationEnabled;
 		SessionConfiguration.worldAlignment = ToARWorldAlignment( InSessionConfiguration->Alignment );
-
+	        SessionConfiguration.planeDetection = ARPlaneDetectionHorizontal;
 		return SessionConfiguration;
 	}
 }
